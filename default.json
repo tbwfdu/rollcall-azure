@@ -1,0 +1,15 @@
+{
+    "azure":{
+        "TENANT_ID":"","CLIENT_ID":"","CLIENT_SECRET":"","AAD_ENDPOINT":"","GRAPH_ENDPOINT":""},
+    "google":{
+            "TENANT_ID":"","CLIENT_ID":"","CLIENT_SECRET":"","AAD_ENDPOINT":"","GRAPH_ENDPOINT":""},
+    "access":{
+        "URL":"","CLIENT_ID":"","CLIENT_SECRET":"","DOMAIN":""},
+    "sync":{
+        "synctype":"","syncvalues":"","frequency":"","day":"","time":""},
+    "group":{
+        "synctype":"","syncvalues":""},
+    "rollcall":{
+        "apiUser":"","apiPassword":""},
+    "mode": ""
+    }

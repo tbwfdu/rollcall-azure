@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "30773877af673ad64ab80f2e2d11ee9a24eeee8f268b0aacf6b33343a52cc033"
+build_start_time: [1657272587, 72144985]
+build_end_time: [1657272592, 428506851]
+inputs:
+  "/Users/plindley/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/window_manager-0.2.0/macos/Classes/SubWindow.swift": [1647833622, 846826553]
+  "/Users/plindley/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/window_manager-0.2.0/macos/Classes/WindowManager.swift": [1647833622, 847817420]
+  "/Users/plindley/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/window_manager-0.2.0/macos/Classes/WindowManagerPlugin.swift": [1647833622, 847215652]

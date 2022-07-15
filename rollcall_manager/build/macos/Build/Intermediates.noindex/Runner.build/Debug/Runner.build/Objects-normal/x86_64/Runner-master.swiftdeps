@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "42cee14523c7b6376138e4b244c71df753500cc767479ced1e0914afbbf25183"
+build_start_time: [1657788169, 631983995]
+build_end_time: [1657788170, 144247055]
+inputs:
+  "/Users/plindley/GitHub/rollcall-general/rollcall_manager/macos/Flutter/GeneratedPluginRegistrant.swift": [1657788145, 505669832]
+  "/Users/plindley/GitHub/rollcall-general/rollcall_manager/macos/Runner/AppDelegate.swift": [1643904689, 0]
+  "/Users/plindley/GitHub/rollcall-general/rollcall_manager/macos/Runner/MainFlutterWindow.swift": [1643904689, 0]

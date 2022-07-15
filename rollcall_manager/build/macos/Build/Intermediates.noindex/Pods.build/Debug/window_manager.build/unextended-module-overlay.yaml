@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/plindley/GitHub/rollcall-general/rollcall_manager/build/macos/Build/Products/Debug/window_manager/window_manager.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/plindley/GitHub/rollcall-general/rollcall_manager/build/macos/Build/Intermediates.noindex/Pods.build/Debug/window_manager.build/unextended-module.modulemap",
+    }]
+  }]
+}

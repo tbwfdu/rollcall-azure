@@ -1,0 +1,38 @@
+Target dependency graph (10 targets)
+FlutterMacOS in Pods, no dependencies
+bitsdojo_window_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+flutter_acrylic in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+flutter_secure_storage_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+shared_preferences_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+url_launcher_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+window_manager in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+Flutter Assemble in Runner, depends on:
+bitsdojo_window_macos in Pods (implicit dependency via options '-framework bitsdojo_window_macos' in build setting 'OTHER_LDFLAGS')
+flutter_acrylic in Pods (implicit dependency via options '-framework flutter_acrylic' in build setting 'OTHER_LDFLAGS')
+flutter_secure_storage_macos in Pods (implicit dependency via options '-framework flutter_secure_storage_macos' in build setting 'OTHER_LDFLAGS')
+shared_preferences_macos in Pods (implicit dependency via options '-framework shared_preferences_macos' in build setting 'OTHER_LDFLAGS')
+url_launcher_macos in Pods (implicit dependency via options '-framework url_launcher_macos' in build setting 'OTHER_LDFLAGS')
+window_manager in Pods (implicit dependency via options '-framework window_manager' in build setting 'OTHER_LDFLAGS')
+Pods-Runner in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+bitsdojo_window_macos in Pods (explicit)
+flutter_acrylic in Pods (explicit)
+flutter_secure_storage_macos in Pods (explicit)
+shared_preferences_macos in Pods (explicit)
+url_launcher_macos in Pods (explicit)
+window_manager in Pods (explicit)
+Runner in Runner, depends on:
+Flutter Assemble in Runner (explicit)
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary')
+bitsdojo_window_macos in Pods (implicit dependency via options '-framework bitsdojo_window_macos' in build setting 'OTHER_LDFLAGS')
+flutter_acrylic in Pods (implicit dependency via options '-framework flutter_acrylic' in build setting 'OTHER_LDFLAGS')
+flutter_secure_storage_macos in Pods (implicit dependency via options '-framework flutter_secure_storage_macos' in build setting 'OTHER_LDFLAGS')
+shared_preferences_macos in Pods (implicit dependency via options '-framework shared_preferences_macos' in build setting 'OTHER_LDFLAGS')
+url_launcher_macos in Pods (implicit dependency via options '-framework url_launcher_macos' in build setting 'OTHER_LDFLAGS')
+window_manager in Pods (implicit dependency via options '-framework window_manager' in build setting 'OTHER_LDFLAGS')

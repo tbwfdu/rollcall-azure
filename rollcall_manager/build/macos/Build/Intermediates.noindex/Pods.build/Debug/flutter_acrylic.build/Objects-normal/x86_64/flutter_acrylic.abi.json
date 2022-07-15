@@ -1,0 +1,1554 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "flutter_acrylic"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "flutter_acrylic"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BlurryContainerViewController",
+      "printedName": "BlurryContainerViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "flutterViewController",
+          "printedName": "flutterViewController",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterViewController",
+              "printedName": "FlutterMacOS.FlutterViewController",
+              "usr": "c:objc(cs)FlutterViewController"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15flutter_acrylic29BlurryContainerViewControllerC0aeF0So07FluttereF0Cvp",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC0aeF0So07FluttereF0Cvp",
+          "moduleName": "flutter_acrylic",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FlutterViewController",
+                  "printedName": "FlutterMacOS.FlutterViewController",
+                  "usr": "c:objc(cs)FlutterViewController"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:15flutter_acrylic29BlurryContainerViewControllerC0aeF0So07FluttereF0Cvg",
+              "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC0aeF0So07FluttereF0Cvg",
+              "moduleName": "flutter_acrylic",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlurryContainerViewController",
+              "printedName": "flutter_acrylic.BlurryContainerViewController",
+              "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController(im)init",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerCACycfc",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "flutter_acrylic.BlurryContainerViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "BlurryContainerViewController",
+                  "printedName": "flutter_acrylic.BlurryContainerViewController",
+                  "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController(im)initWithCoder:",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "loadView",
+          "printedName": "loadView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController(im)loadView",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC04loadE0yyF",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "loadView",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController(im)viewDidLoad",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC11viewDidLoadyyF",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlurryContainerViewController",
+              "printedName": "flutter_acrylic.BlurryContainerViewController",
+              "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@flutter_acrylic@objc(cs)BlurryContainerViewController",
+      "mangledName": "$s15flutter_acrylic29BlurryContainerViewControllerC",
+      "moduleName": "flutter_acrylic",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSViewController",
+      "superclassNames": [
+        "AppKit.NSViewController",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainFlutterWindowManipulator",
+      "printedName": "MainFlutterWindowManipulator",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "start",
+          "printedName": "start(mainFlutterWindow:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSWindow",
+              "printedName": "AppKit.NSWindow",
+              "usr": "c:objc(cs)NSWindow"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC5start04maindE0ySo8NSWindowC_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC5start04maindE0ySo8NSWindowC_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hideTitle",
+          "printedName": "hideTitle()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC9hideTitleyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC9hideTitleyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showTitle",
+          "printedName": "showTitle()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC9showTitleyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC9showTitleyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeTitlebarTransparent",
+          "printedName": "makeTitlebarTransparent()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC23makeTitlebarTransparentyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC23makeTitlebarTransparentyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "makeTitlebarOpaque",
+          "printedName": "makeTitlebarOpaque()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC18makeTitlebarOpaqueyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC18makeTitlebarOpaqueyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enableFullSizeContentView",
+          "printedName": "enableFullSizeContentView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC25enableFullSizeContentViewyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC25enableFullSizeContentViewyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "disableFullSizeContentView",
+          "printedName": "disableFullSizeContentView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC26disableFullSizeContentViewyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC26disableFullSizeContentViewyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "zoomWindow",
+          "printedName": "zoomWindow()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC04zoomE0yyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC04zoomE0yyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "unzoomWindow",
+          "printedName": "unzoomWindow()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC06unzoomE0yyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC06unzoomE0yyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isWindowZoomed",
+          "printedName": "isWindowZoomed()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC02isE6ZoomedSbyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC02isE6ZoomedSbyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enterFullscreen",
+          "printedName": "enterFullscreen()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC15enterFullscreenyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC15enterFullscreenyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "exitFullscreen",
+          "printedName": "exitFullscreen()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC14exitFullscreenyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC14exitFullscreenyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isWindowFullscreened",
+          "printedName": "isWindowFullscreened()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC02isE12FullscreenedSbyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC02isE12FullscreenedSbyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hideZoomButton",
+          "printedName": "hideZoomButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC14hideZoomButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC14hideZoomButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showZoomButton",
+          "printedName": "showZoomButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC14showZoomButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC14showZoomButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hideMiniaturizeButton",
+          "printedName": "hideMiniaturizeButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC21hideMiniaturizeButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC21hideMiniaturizeButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showMiniaturizeButton",
+          "printedName": "showMiniaturizeButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC21showMiniaturizeButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC21showMiniaturizeButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hideCloseButton",
+          "printedName": "hideCloseButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC15hideCloseButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC15hideCloseButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showCloseButton",
+          "printedName": "showCloseButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC15showCloseButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC15showCloseButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enableZoomButton",
+          "printedName": "enableZoomButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC16enableZoomButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC16enableZoomButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "disableZoomButton",
+          "printedName": "disableZoomButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC17disableZoomButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC17disableZoomButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enableMiniaturizeButton",
+          "printedName": "enableMiniaturizeButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC23enableMiniaturizeButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC23enableMiniaturizeButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "disableMiniaturizeButton",
+          "printedName": "disableMiniaturizeButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC24disableMiniaturizeButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC24disableMiniaturizeButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "enableCloseButton",
+          "printedName": "enableCloseButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC17enableCloseButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC17enableCloseButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "disableCloseButton",
+          "printedName": "disableCloseButton()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC18disableCloseButtonyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC18disableCloseButtonyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setDocumentEdited",
+          "printedName": "setDocumentEdited()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC17setDocumentEditedyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC17setDocumentEditedyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setDocumentUnedited",
+          "printedName": "setDocumentUnedited()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC19setDocumentUneditedyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC19setDocumentUneditedyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setRepresentedFilename",
+          "printedName": "setRepresentedFilename(filename:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC22setRepresentedFilename8filenameySS_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC22setRepresentedFilename8filenameySS_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setRepresentedURL",
+          "printedName": "setRepresentedURL(url:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC17setRepresentedURL3urlySS_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC17setRepresentedURL3urlySS_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isWindowInLiveResize",
+          "printedName": "isWindowInLiveResize()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC02isE12InLiveResizeSbyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC02isE12InLiveResizeSbyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setWindowAlphaValue",
+          "printedName": "setWindowAlphaValue(alphaValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC03setE10AlphaValue05alphaI0y12CoreGraphics7CGFloatV_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC03setE10AlphaValue05alphaI0y12CoreGraphics7CGFloatV_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isWindowVisible",
+          "printedName": "isWindowVisible()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC02isE7VisibleSbyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC02isE7VisibleSbyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setWindowBackgroundColorToDefaultColor",
+          "printedName": "setWindowBackgroundColorToDefaultColor()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC03sete24BackgroundColorToDefaultI0yyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC03sete24BackgroundColorToDefaultI0yyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setWindowBackgroundColorToClear",
+          "printedName": "setWindowBackgroundColorToClear()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC03setE22BackgroundColorToClearyyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC03setE22BackgroundColorToClearyyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setBlurViewState",
+          "printedName": "setBlurViewState(state:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "AppKit.NSVisualEffectView.State",
+              "usr": "c:@E@NSVisualEffectState"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC16setBlurViewState5stateySo014NSVisualEffectJ0V_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC16setBlurViewState5stateySo014NSVisualEffectJ0V_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setAppearance",
+          "printedName": "setAppearance(dark:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC13setAppearance4darkySb_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC13setAppearance4darkySb_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "intro_Macosx": "10.14",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "Available"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setMaterial",
+          "printedName": "setMaterial(material:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Material",
+              "printedName": "AppKit.NSVisualEffectView.Material",
+              "usr": "c:@E@NSVisualEffectMaterial"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC11setMaterial8materialySo014NSVisualEffectH0V_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC11setMaterial8materialySo014NSVisualEffectH0V_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "intro_Macosx": "10.14",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "Available"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setEffect",
+          "printedName": "setEffect(material:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Material",
+              "printedName": "AppKit.NSVisualEffectView.Material",
+              "usr": "c:@E@NSVisualEffectMaterial"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC9setEffect8materialySo08NSVisualH8MaterialV_tFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC9setEffect8materialySo08NSVisualH8MaterialV_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "intro_Macosx": "10.14",
+          "declAttributes": [
+            "Final",
+            "AccessControl",
+            "Available"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getTitlebarHeight",
+          "printedName": "getTitlebarHeight()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC17getTitlebarHeight12CoreGraphics7CGFloatVyFZ",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC17getTitlebarHeight12CoreGraphics7CGFloatVyFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "declAttributes": [
+            "Final",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainFlutterWindowManipulator",
+              "printedName": "flutter_acrylic.MainFlutterWindowManipulator",
+              "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorCACycfc",
+          "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorCACycfc",
+          "moduleName": "flutter_acrylic",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:15flutter_acrylic28MainFlutterWindowManipulatorC",
+      "mangledName": "$s15flutter_acrylic28MainFlutterWindowManipulatorC",
+      "moduleName": "flutter_acrylic",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "hasMissingDesignatedInitializers": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FlutterAcrylicPlugin",
+      "printedName": "FlutterAcrylicPlugin",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "registrar",
+          "printedName": "registrar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FlutterPluginRegistrar",
+                  "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+                  "usr": "c:objc(pl)FlutterPluginRegistrar"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15flutter_acrylic20FlutterAcrylicPluginC9registrar33_6DF31E5CAD43A740BD4E62A5702B8F8BLLSo0cE9Registrar_pSgvp",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginC9registrar33_6DF31E5CAD43A740BD4E62A5702B8F8BLLSo0cE9Registrar_pSgvp",
+          "moduleName": "flutter_acrylic",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "channel",
+          "printedName": "channel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "FlutterMacOS.FlutterMethodChannel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FlutterMethodChannel",
+                  "printedName": "FlutterMacOS.FlutterMethodChannel",
+                  "usr": "c:objc(cs)FlutterMethodChannel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:15flutter_acrylic20FlutterAcrylicPluginC7channel33_6DF31E5CAD43A740BD4E62A5702B8F8BLLSo0C13MethodChannelCSgvp",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginC7channel33_6DF31E5CAD43A740BD4E62A5702B8F8BLLSo0C13MethodChannelCSgvp",
+          "moduleName": "flutter_acrylic",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin(cm)registerWithRegistrar:",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginC8register4withySo0cE9Registrar_p_tFZ",
+          "moduleName": "flutter_acrylic",
+          "static": true,
+          "objc_name": "registerWithRegistrar:",
+          "declAttributes": [
+            "Final",
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterAcrylicPlugin",
+              "printedName": "flutter_acrylic.FlutterAcrylicPlugin",
+              "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodChannel",
+              "printedName": "FlutterMacOS.FlutterMethodChannel",
+              "usr": "c:objc(cs)FlutterMethodChannel"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:15flutter_acrylic20FlutterAcrylicPluginCyACSo0cE9Registrar_p_So0C13MethodChannelCtcfc",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginCyACSo0cE9Registrar_p_So0C13MethodChannelCtcfc",
+          "moduleName": "flutter_acrylic",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(_:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodCall",
+              "printedName": "FlutterMacOS.FlutterMethodCall",
+              "usr": "c:objc(cs)FlutterMethodCall"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Any?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin(im)handleMethodCall:result:",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginC6handle_6resultySo0C10MethodCallC_yypSgctF",
+          "moduleName": "flutter_acrylic",
+          "isOpen": true,
+          "objc_name": "handleMethodCall:result:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterAcrylicPlugin",
+              "printedName": "flutter_acrylic.FlutterAcrylicPlugin",
+              "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin(im)init",
+          "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginCACycfc",
+          "moduleName": "flutter_acrylic",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@flutter_acrylic@objc(cs)FlutterAcrylicPlugin",
+      "mangledName": "$s15flutter_acrylic20FlutterAcrylicPluginC",
+      "moduleName": "flutter_acrylic",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

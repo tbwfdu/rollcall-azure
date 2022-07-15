@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>20724567042-o9d0pckf33037q6vtdkd75ln7o17vgj1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.20724567042-o9d0pckf33037q6vtdkd75ln7o17vgj1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA8xGAFdlWk7JhmhzTGYaXj5PEIH23IkiM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>20724567042</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tbwfdu.bigbang</string>
+	<key>PROJECT_ID</key>
+	<string>foglight-uat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foglight-uat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:20724567042:ios:d5f1f2cdde91ba8b032b1b</string>
+</dict>
+</plist>

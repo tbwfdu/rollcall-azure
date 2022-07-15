@@ -1,0 +1,399 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainFlutterWindow",
+      "printedName": "MainFlutterWindow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Rollcall_Manager@objc(cs)MainFlutterWindow(im)awakeFromNib",
+          "mangledName": "$s16Rollcall_Manager17MainFlutterWindowC12awakeFromNibyyF",
+          "moduleName": "Rollcall_Manager",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(contentRect:styleMask:backing:defer:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainFlutterWindow",
+              "printedName": "Rollcall_Manager.MainFlutterWindow",
+              "usr": "c:@M@Rollcall_Manager@objc(cs)MainFlutterWindow"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StyleMask",
+              "printedName": "AppKit.NSWindow.StyleMask",
+              "usr": "c:@E@NSWindowStyleMask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "BackingStoreType",
+              "printedName": "AppKit.NSWindow.BackingStoreType",
+              "usr": "c:@E@NSBackingStoreType"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Rollcall_Manager@objc(cs)MainFlutterWindow(im)initWithContentRect:styleMask:backing:defer:",
+          "mangledName": "$s16Rollcall_Manager17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleI0VSo18NSBackingStoreTypeVSbtcfc",
+          "moduleName": "Rollcall_Manager",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithContentRect:styleMask:backing:defer:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Rollcall_Manager@objc(cs)MainFlutterWindow",
+      "mangledName": "$s16Rollcall_Manager17MainFlutterWindowC",
+      "moduleName": "Rollcall_Manager",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSWindow",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSWindow",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "applicationShouldTerminateAfterLastWindowClosed",
+          "printedName": "applicationShouldTerminateAfterLastWindowClosed(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplication",
+              "printedName": "AppKit.NSApplication",
+              "usr": "c:objc(cs)NSApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@Rollcall_Manager@objc(cs)AppDelegate(im)applicationShouldTerminateAfterLastWindowClosed:",
+          "mangledName": "$s16Rollcall_Manager11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCF",
+          "moduleName": "Rollcall_Manager",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "applicationShouldTerminateAfterLastWindowClosed:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "Rollcall_Manager.AppDelegate",
+              "usr": "c:@M@Rollcall_Manager@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@Rollcall_Manager@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s16Rollcall_Manager11AppDelegateCACycfc",
+          "moduleName": "Rollcall_Manager",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@Rollcall_Manager@objc(cs)AppDelegate",
+      "mangledName": "$s16Rollcall_Manager11AppDelegateC",
+      "moduleName": "Rollcall_Manager",
+      "isOpen": true,
+      "declAttributes": [
+        "NSApplicationMain",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)FlutterAppDelegate",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "FlutterMacOS.FlutterAppDelegate",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "bitsdojo_window_macos",
+      "printedName": "bitsdojo_window_macos",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "flutter_acrylic",
+      "printedName": "flutter_acrylic",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "flutter_secure_storage_macos",
+      "printedName": "flutter_secure_storage_macos",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "shared_preferences_macos",
+      "printedName": "shared_preferences_macos",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "url_launcher_macos",
+      "printedName": "url_launcher_macos",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Import",
+      "name": "window_manager",
+      "printedName": "window_manager",
+      "declKind": "Import",
+      "moduleName": "Rollcall_Manager"
+    },
+    {
+      "kind": "Function",
+      "name": "RegisterGeneratedPlugins",
+      "printedName": "RegisterGeneratedPlugins(registry:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "FlutterPluginRegistry",
+          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+          "usr": "c:objc(pl)FlutterPluginRegistry"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:16Rollcall_Manager24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "mangledName": "$s16Rollcall_Manager24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "moduleName": "Rollcall_Manager",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "30773877af673ad64ab80f2e2d11ee9a24eeee8f268b0aacf6b33343a52cc033"
+build_start_time: [1657272587, 72141170]
+build_end_time: [1657272592, 144968986]
+inputs:
+  "/Users/plindley/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/bitsdojo_window_macos-0.1.0/macos/Classes/BitsdojoWindow.swift": [1644223336, 598556995]
+  ? "/Users/plindley/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/bitsdojo_window_macos-0.1.0/macos/Classes/BitsdojoWindowPlugin.swift"
+  : [1644223336, 603030204]

@@ -1,0 +1,3337 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SubWindow",
+      "printedName": "SubWindow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)SubWindow(im)awakeFromNib",
+          "mangledName": "$s14window_manager9SubWindowC12awakeFromNibyyF",
+          "moduleName": "window_manager",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(contentRect:styleMask:backing:defer:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SubWindow",
+              "printedName": "window_manager.SubWindow",
+              "usr": "c:@M@window_manager@objc(cs)SubWindow"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StyleMask",
+              "printedName": "AppKit.NSWindow.StyleMask",
+              "usr": "c:@E@NSWindowStyleMask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "BackingStoreType",
+              "printedName": "AppKit.NSWindow.BackingStoreType",
+              "usr": "c:@E@NSBackingStoreType"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@window_manager@objc(cs)SubWindow(im)initWithContentRect:styleMask:backing:defer:",
+          "mangledName": "$s14window_manager9SubWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleH0VSo18NSBackingStoreTypeVSbtcfc",
+          "moduleName": "window_manager",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithContentRect:styleMask:backing:defer:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@window_manager@objc(cs)SubWindow",
+      "mangledName": "$s14window_manager9SubWindowC",
+      "moduleName": "window_manager",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSWindow",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSWindow",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "WindowManager",
+      "printedName": "WindowManager",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "onEvent",
+          "printedName": "onEvent",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((Swift.String) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager13WindowManagerC7onEventySScSgvp",
+          "mangledName": "$s14window_manager13WindowManagerC7onEventySScSgvp",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Swift.String) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.String) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC7onEventySScSgvg",
+              "mangledName": "$s14window_manager13WindowManagerC7onEventySScSgvg",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Swift.String) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.String) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC7onEventySScSgvs",
+              "mangledName": "$s14window_manager13WindowManagerC7onEventySScSgvs",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC7onEventySScSgvM",
+              "mangledName": "$s14window_manager13WindowManagerC7onEventySScSgvM",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_mainWindow",
+          "printedName": "_mainWindow",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AppKit.NSWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSWindow",
+                  "printedName": "AppKit.NSWindow",
+                  "usr": "c:objc(cs)NSWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager13WindowManagerC05_mainC033_8E9E1379708FEBFBD7D6976AC06EF27BLLSo8NSWindowCSgvp",
+          "mangledName": "$s14window_manager13WindowManagerC05_mainC033_8E9E1379708FEBFBD7D6976AC06EF27BLLSo8NSWindowCSgvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "mainWindow",
+          "printedName": "mainWindow",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSWindow",
+              "printedName": "AppKit.NSWindow",
+              "usr": "c:objc(cs)NSWindow"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager13WindowManagerC04mainC0So8NSWindowCvp",
+          "mangledName": "$s14window_manager13WindowManagerC04mainC0So8NSWindowCvp",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSWindow",
+                  "printedName": "AppKit.NSWindow",
+                  "usr": "c:objc(cs)NSWindow"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC04mainC0So8NSWindowCvg",
+              "mangledName": "$s14window_manager13WindowManagerC04mainC0So8NSWindowCvg",
+              "moduleName": "window_manager",
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSWindow",
+                  "printedName": "AppKit.NSWindow",
+                  "usr": "c:objc(cs)NSWindow"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC04mainC0So8NSWindowCvs",
+              "mangledName": "$s14window_manager13WindowManagerC04mainC0So8NSWindowCvs",
+              "moduleName": "window_manager",
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager13WindowManagerC04mainC0So8NSWindowCvM",
+              "mangledName": "$s14window_manager13WindowManagerC04mainC0So8NSWindowCvM",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isPreventClose",
+          "printedName": "_isPreventClose",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager13WindowManagerC15_isPreventClose33_8E9E1379708FEBFBD7D6976AC06EF27BLLSbvp",
+          "mangledName": "$s14window_manager13WindowManagerC15_isPreventClose33_8E9E1379708FEBFBD7D6976AC06EF27BLLSbvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_isMaximized",
+          "printedName": "_isMaximized",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager13WindowManagerC12_isMaximized33_8E9E1379708FEBFBD7D6976AC06EF27BLLSbvp",
+          "mangledName": "$s14window_manager13WindowManagerC12_isMaximized33_8E9E1379708FEBFBD7D6976AC06EF27BLLSbvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowManager",
+              "printedName": "window_manager.WindowManager",
+              "usr": "c:@M@window_manager@objc(cs)WindowManager"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)init",
+          "mangledName": "$s14window_manager13WindowManagerCACycfc",
+          "moduleName": "window_manager",
+          "overriding": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "AccessControl",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "waitUntilReadyToShow",
+          "printedName": "waitUntilReadyToShow()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC20waitUntilReadyToShowyyF",
+          "mangledName": "$s14window_manager13WindowManagerC20waitUntilReadyToShowyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setAsFrameless",
+          "printedName": "setAsFrameless()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setAsFramelessyyF",
+          "mangledName": "$s14window_manager13WindowManagerC14setAsFramelessyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "destroy",
+          "printedName": "destroy()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC7destroyyyF",
+          "mangledName": "$s14window_manager13WindowManagerC7destroyyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "close",
+          "printedName": "close()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC5closeyyF",
+          "mangledName": "$s14window_manager13WindowManagerC5closeyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isPreventClose",
+          "printedName": "isPreventClose()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14isPreventCloseSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC14isPreventCloseSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setPreventClose",
+          "printedName": "setPreventClose(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC15setPreventCloseyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC15setPreventCloseyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "focus",
+          "printedName": "focus()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC5focusyyF",
+          "mangledName": "$s14window_manager13WindowManagerC5focusyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "blur",
+          "printedName": "blur()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC4bluryyF",
+          "mangledName": "$s14window_manager13WindowManagerC4bluryyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isFocused",
+          "printedName": "isFocused()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC9isFocusedSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC9isFocusedSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "show",
+          "printedName": "show()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC4showyyF",
+          "mangledName": "$s14window_manager13WindowManagerC4showyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hide",
+          "printedName": "hide()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC4hideyyF",
+          "mangledName": "$s14window_manager13WindowManagerC4hideyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isVisible",
+          "printedName": "isVisible()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC9isVisibleSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC9isVisibleSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isMaximized",
+          "printedName": "isMaximized()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11isMaximizedSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC11isMaximizedSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "maximize",
+          "printedName": "maximize()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC8maximizeyyF",
+          "mangledName": "$s14window_manager13WindowManagerC8maximizeyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "unmaximize",
+          "printedName": "unmaximize()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10unmaximizeyyF",
+          "mangledName": "$s14window_manager13WindowManagerC10unmaximizeyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isMinimized",
+          "printedName": "isMinimized()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11isMinimizedSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC11isMinimizedSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "minimize",
+          "printedName": "minimize()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC8minimizeyyF",
+          "mangledName": "$s14window_manager13WindowManagerC8minimizeyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "restore",
+          "printedName": "restore()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC7restoreyyF",
+          "mangledName": "$s14window_manager13WindowManagerC7restoreyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isFullScreen",
+          "printedName": "isFullScreen()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC12isFullScreenSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC12isFullScreenSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setFullScreen",
+          "printedName": "setFullScreen(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC13setFullScreenyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC13setFullScreenyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setAspectRatio",
+          "printedName": "setAspectRatio(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setAspectRatioyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setAspectRatioyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setBackgroundColor",
+          "printedName": "setBackgroundColor(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC18setBackgroundColoryySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC18setBackgroundColoryySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getPosition",
+          "printedName": "getPosition()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSDictionary",
+              "printedName": "Foundation.NSDictionary",
+              "usr": "c:objc(cs)NSDictionary"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11getPositionSo12NSDictionaryCyF",
+          "mangledName": "$s14window_manager13WindowManagerC11getPositionSo12NSDictionaryCyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setPosition",
+          "printedName": "setPosition(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11setPositionyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC11setPositionyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getSize",
+          "printedName": "getSize()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSDictionary",
+              "printedName": "Foundation.NSDictionary",
+              "usr": "c:objc(cs)NSDictionary"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC7getSizeSo12NSDictionaryCyF",
+          "mangledName": "$s14window_manager13WindowManagerC7getSizeSo12NSDictionaryCyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setSize",
+          "printedName": "setSize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC7setSizeyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC7setSizeyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setMinimumSize",
+          "printedName": "setMinimumSize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setMinimumSizeyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setMinimumSizeyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setMaximumSize",
+          "printedName": "setMaximumSize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setMaximumSizeyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setMaximumSizeyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isResizable",
+          "printedName": "isResizable()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11isResizableSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC11isResizableSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setResizable",
+          "printedName": "setResizable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC12setResizableyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC12setResizableyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isMovable",
+          "printedName": "isMovable()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC9isMovableSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC9isMovableSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setMovable",
+          "printedName": "setMovable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10setMovableyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC10setMovableyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isMinimizable",
+          "printedName": "isMinimizable()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC13isMinimizableSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC13isMinimizableSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setMinimizable",
+          "printedName": "setMinimizable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setMinimizableyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setMinimizableyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isClosable",
+          "printedName": "isClosable()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10isClosableSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC10isClosableSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setClosable",
+          "printedName": "setClosable(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC11setClosableyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC11setClosableyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isAlwaysOnTop",
+          "printedName": "isAlwaysOnTop()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC13isAlwaysOnTopSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC13isAlwaysOnTopSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setAlwaysOnTop",
+          "printedName": "setAlwaysOnTop(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setAlwaysOnTopyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setAlwaysOnTopyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getTitle",
+          "printedName": "getTitle()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC8getTitleSSyF",
+          "mangledName": "$s14window_manager13WindowManagerC8getTitleSSyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setTitle",
+          "printedName": "setTitle(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC8setTitleyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC8setTitleyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setTitleBarStyle",
+          "printedName": "setTitleBarStyle(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC16setTitleBarStyleyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC16setTitleBarStyleyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getTitleBarHeight",
+          "printedName": "getTitleBarHeight()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC17getTitleBarHeightSiyF",
+          "mangledName": "$s14window_manager13WindowManagerC17getTitleBarHeightSiyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setSkipTaskbar",
+          "printedName": "setSkipTaskbar(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setSkipTaskbaryySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setSkipTaskbaryySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setProgressBar",
+          "printedName": "setProgressBar(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC14setProgressBaryySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC14setProgressBaryySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "hasShadow",
+          "printedName": "hasShadow()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC9hasShadowSbyF",
+          "mangledName": "$s14window_manager13WindowManagerC9hasShadowSbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setHasShadow",
+          "printedName": "setHasShadow(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC12setHasShadowyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC12setHasShadowyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getOpacity",
+          "printedName": "getOpacity()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10getOpacity12CoreGraphics7CGFloatVyF",
+          "mangledName": "$s14window_manager13WindowManagerC10getOpacity12CoreGraphics7CGFloatVyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setOpacity",
+          "printedName": "setOpacity(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10setOpacityyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC10setOpacityyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setBrightness",
+          "printedName": "setBrightness(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC13setBrightnessyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC13setBrightnessyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setIgnoreMouseEvents",
+          "printedName": "setIgnoreMouseEvents(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC20setIgnoreMouseEventsyySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC20setIgnoreMouseEventsyySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startDragging",
+          "printedName": "startDragging()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC13startDraggingyyF",
+          "mangledName": "$s14window_manager13WindowManagerC13startDraggingyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getPrimaryDisplay",
+          "printedName": "getPrimaryDisplay()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSDictionary",
+              "printedName": "Foundation.NSDictionary",
+              "usr": "c:objc(cs)NSDictionary"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC17getPrimaryDisplaySo12NSDictionaryCyF",
+          "mangledName": "$s14window_manager13WindowManagerC17getPrimaryDisplaySo12NSDictionaryCyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "isSubWindow",
+          "printedName": "isSubWindow()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC05isSubC0SbyF",
+          "mangledName": "$s14window_manager13WindowManagerC05isSubC0SbyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createSubWindow",
+          "printedName": "createSubWindow(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC09createSubC0yySDySSypGF",
+          "mangledName": "$s14window_manager13WindowManagerC09createSubC0yySDySSypGF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowShouldClose",
+          "printedName": "windowShouldClose(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSWindow",
+              "printedName": "AppKit.NSWindow",
+              "usr": "c:objc(cs)NSWindow"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowShouldClose:",
+          "mangledName": "$s14window_manager13WindowManagerC0A11ShouldCloseySbSo8NSWindowCF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowShouldClose:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidResize",
+          "printedName": "windowDidResize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidResize:",
+          "mangledName": "$s14window_manager13WindowManagerC0A9DidResizeyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidResize:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidMove",
+          "printedName": "windowDidMove(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidMove:",
+          "mangledName": "$s14window_manager13WindowManagerC0A7DidMoveyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidMove:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidBecomeMain",
+          "printedName": "windowDidBecomeMain(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidBecomeMain:",
+          "mangledName": "$s14window_manager13WindowManagerC0A13DidBecomeMainyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidBecomeMain:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidResignMain",
+          "printedName": "windowDidResignMain(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidResignMain:",
+          "mangledName": "$s14window_manager13WindowManagerC0A13DidResignMainyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidResignMain:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidMiniaturize",
+          "printedName": "windowDidMiniaturize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidMiniaturize:",
+          "mangledName": "$s14window_manager13WindowManagerC0A14DidMiniaturizeyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidMiniaturize:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidDeminiaturize",
+          "printedName": "windowDidDeminiaturize(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidDeminiaturize:",
+          "mangledName": "$s14window_manager13WindowManagerC0A16DidDeminiaturizeyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidDeminiaturize:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidEnterFullScreen",
+          "printedName": "windowDidEnterFullScreen(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidEnterFullScreen:",
+          "mangledName": "$s14window_manager13WindowManagerC0A18DidEnterFullScreenyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidEnterFullScreen:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "windowDidExitFullScreen",
+          "printedName": "windowDidExitFullScreen(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Notification",
+              "printedName": "Foundation.Notification",
+              "usr": "s:10Foundation12NotificationV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManager(im)windowDidExitFullScreen:",
+          "mangledName": "$s14window_manager13WindowManagerC0A17DidExitFullScreenyy10Foundation12NotificationVF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "windowDidExitFullScreen:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "_emitEvent",
+          "printedName": "_emitEvent(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager13WindowManagerC10_emitEventyySSF",
+          "mangledName": "$s14window_manager13WindowManagerC10_emitEventyySSF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@window_manager@objc(cs)WindowManager",
+      "mangledName": "$s14window_manager13WindowManagerC",
+      "moduleName": "window_manager",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "window_manager"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "WindowManagerPlugin",
+      "printedName": "WindowManagerPlugin",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "RegisterGeneratedPlugins",
+          "printedName": "RegisterGeneratedPlugins",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((FlutterMacOS.FlutterPluginRegistry) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(FlutterMacOS.FlutterPluginRegistry) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "FlutterPluginRegistry",
+                      "printedName": "FlutterMacOS.FlutterPluginRegistry",
+                      "usr": "c:objc(pl)FlutterPluginRegistry"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvpZ",
+          "mangledName": "$s14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvpZ",
+          "moduleName": "window_manager",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((FlutterMacOS.FlutterPluginRegistry) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(FlutterMacOS.FlutterPluginRegistry) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "FlutterPluginRegistry",
+                          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+                          "usr": "c:objc(pl)FlutterPluginRegistry"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvgZ",
+              "mangledName": "$s14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvgZ",
+              "moduleName": "window_manager",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((FlutterMacOS.FlutterPluginRegistry) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(FlutterMacOS.FlutterPluginRegistry) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "FlutterPluginRegistry",
+                          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+                          "usr": "c:objc(pl)FlutterPluginRegistry"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvsZ",
+              "mangledName": "$s14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvsZ",
+              "moduleName": "window_manager",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvMZ",
+              "mangledName": "$s14window_manager19WindowManagerPluginC24RegisterGeneratedPluginsySo07FlutterE8Registry_pcSgvMZ",
+              "moduleName": "window_manager",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin(cm)registerWithRegistrar:",
+          "mangledName": "$s14window_manager19WindowManagerPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+          "moduleName": "window_manager",
+          "static": true,
+          "objc_name": "registerWithRegistrar:",
+          "declAttributes": [
+            "Final",
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "registrar",
+          "printedName": "registrar",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FlutterPluginRegistrar",
+                  "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+                  "usr": "c:objc(pl)FlutterPluginRegistrar"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager19WindowManagerPluginC9registrar33_CCFE7F6D9B8E8C0FBDD222876E152058LLSo07FlutterE9Registrar_pSgvp",
+          "mangledName": "$s14window_manager19WindowManagerPluginC9registrar33_CCFE7F6D9B8E8C0FBDD222876E152058LLSo07FlutterE9Registrar_pSgvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "channel",
+          "printedName": "channel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "FlutterMacOS.FlutterMethodChannel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FlutterMethodChannel",
+                  "printedName": "FlutterMacOS.FlutterMethodChannel",
+                  "usr": "c:objc(cs)FlutterMethodChannel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager19WindowManagerPluginC7channel33_CCFE7F6D9B8E8C0FBDD222876E152058LLSo20FlutterMethodChannelCSgvp",
+          "mangledName": "$s14window_manager19WindowManagerPluginC7channel33_CCFE7F6D9B8E8C0FBDD222876E152058LLSo20FlutterMethodChannelCSgvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "_inited",
+          "printedName": "_inited",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager19WindowManagerPluginC7_inited33_CCFE7F6D9B8E8C0FBDD222876E152058LLSbvp",
+          "mangledName": "$s14window_manager19WindowManagerPluginC7_inited33_CCFE7F6D9B8E8C0FBDD222876E152058LLSbvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "windowManager",
+          "printedName": "windowManager",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowManager",
+              "printedName": "window_manager.WindowManager",
+              "usr": "c:@M@window_manager@objc(cs)WindowManager"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14window_manager19WindowManagerPluginC0aD033_CCFE7F6D9B8E8C0FBDD222876E152058LLAA0cD0Cvp",
+          "mangledName": "$s14window_manager19WindowManagerPluginC0aD033_CCFE7F6D9B8E8C0FBDD222876E152058LLAA0cD0Cvp",
+          "moduleName": "window_manager",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowManagerPlugin",
+              "printedName": "window_manager.WindowManagerPlugin",
+              "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterPluginRegistrar",
+              "printedName": "FlutterMacOS.FlutterPluginRegistrar",
+              "usr": "c:objc(pl)FlutterPluginRegistrar"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodChannel",
+              "printedName": "FlutterMacOS.FlutterMethodChannel",
+              "usr": "c:objc(cs)FlutterMethodChannel"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14window_manager19WindowManagerPluginCyACSo07FlutterE9Registrar_p_So0F13MethodChannelCtcfc",
+          "mangledName": "$s14window_manager19WindowManagerPluginCyACSo07FlutterE9Registrar_p_So0F13MethodChannelCtcfc",
+          "moduleName": "window_manager",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "handle",
+          "printedName": "handle(_:result:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FlutterMethodCall",
+              "printedName": "FlutterMacOS.FlutterMethodCall",
+              "usr": "c:objc(cs)FlutterMethodCall"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Any?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Any?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin(im)handleMethodCall:result:",
+          "mangledName": "$s14window_manager19WindowManagerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "objc_name": "handleMethodCall:result:",
+          "declAttributes": [
+            "ObjC",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "_emitEvent",
+          "printedName": "_emitEvent(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14window_manager19WindowManagerPluginC10_emitEventyySSF",
+          "mangledName": "$s14window_manager19WindowManagerPluginC10_emitEventyySSF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowManagerPlugin",
+              "printedName": "window_manager.WindowManagerPlugin",
+              "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin(im)init",
+          "mangledName": "$s14window_manager19WindowManagerPluginCACycfc",
+          "moduleName": "window_manager",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@window_manager@objc(cs)WindowManagerPlugin",
+      "mangledName": "$s14window_manager19WindowManagerPluginC",
+      "moduleName": "window_manager",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSObject",
+      "superclassNames": [
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NSWindow",
+      "printedName": "NSWindow",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "configured",
+          "printedName": "configured",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So8NSWindowC14window_managerE10configuredSbvp",
+          "mangledName": "$sSo8NSWindowC14window_managerE10configuredSbvp",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So8NSWindowC14window_managerE10configuredSbvg",
+              "mangledName": "$sSo8NSWindowC14window_managerE10configuredSbvg",
+              "moduleName": "window_manager",
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So8NSWindowC14window_managerE10configuredSbvs",
+              "mangledName": "$sSo8NSWindowC14window_managerE10configuredSbvs",
+              "moduleName": "window_manager",
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So8NSWindowC14window_managerE10configuredSbvM",
+              "mangledName": "$sSo8NSWindowC14window_managerE10configuredSbvM",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "hiddenWindowAtLaunch",
+          "printedName": "hiddenWindowAtLaunch()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So8NSWindowC14window_managerE20hiddenWindowAtLaunchyyF",
+          "mangledName": "$sSo8NSWindowC14window_managerE20hiddenWindowAtLaunchyyF",
+          "moduleName": "window_manager",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)NSWindow",
+      "moduleName": "AppKit",
+      "isOpen": true,
+      "objc_name": "NSWindow",
+      "declAttributes": [
+        "Custom",
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)NSResponder",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CGRect",
+      "printedName": "CGRect",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "topLeft",
+          "printedName": "topLeft",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So6CGRectV14window_managerE7topLeftSo7CGPointVvp",
+          "mangledName": "$sSo6CGRectV14window_managerE7topLeftSo7CGPointVvp",
+          "moduleName": "window_manager",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGPoint",
+                  "printedName": "CoreGraphics.CGPoint",
+                  "usr": "c:@S@CGPoint"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So6CGRectV14window_managerE7topLeftSo7CGPointVvg",
+              "mangledName": "$sSo6CGRectV14window_managerE7topLeftSo7CGPointVvg",
+              "moduleName": "window_manager",
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGPoint",
+                  "printedName": "CoreGraphics.CGPoint",
+                  "usr": "c:@S@CGPoint"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So6CGRectV14window_managerE7topLeftSo7CGPointVvs",
+              "mangledName": "$sSo6CGRectV14window_managerE7topLeftSo7CGPointVvs",
+              "moduleName": "window_manager",
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So6CGRectV14window_managerE7topLeftSo7CGPointVvM",
+              "mangledName": "$sSo6CGRectV14window_managerE7topLeftSo7CGPointVvM",
+              "moduleName": "window_manager",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "c:@S@CGRect",
+      "moduleName": "CoreGraphics",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSValue",
+                  "printedName": "Foundation.NSValue",
+                  "usr": "c:objc(cs)NSValue"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

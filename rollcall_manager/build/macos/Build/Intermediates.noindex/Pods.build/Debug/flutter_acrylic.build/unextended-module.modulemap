@@ -1,0 +1,10 @@
+framework module flutter_acrylic {
+  umbrella header "flutter_acrylic-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_acrylic.__Swift {
+    exclude header "flutter_acrylic-Swift.h"
+}
